@@ -17,11 +17,11 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-2) Figure out why you can run:
+3) Check that you can run:
 ```sh
 $ git add foo.txt
 ```
-but following gives you error:
+4) Now figure out why following gives you error:
 ```sh
 $ git add bar.txt
 fatal: pathspec 'bar.txt' did not match any files
